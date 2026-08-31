@@ -588,3 +588,32 @@ footer {
     }
 
 }
+/* ================= PROFILE PHOTO ================= */
+
+.profile-wrapper {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 5px;
+
+    background: linear-gradient(135deg, #7c3aed, #06b6d4);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 0 40px rgba(124, 58, 237, 0.5);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 4px solid #080b14;
+}
