@@ -629,6 +629,14 @@ footer {
     cursor: pointer;
 }
 
+/* ================= MOBILE ================= */
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 @media (max-width: 800px) {
 
     .menu-toggle {
@@ -638,29 +646,44 @@ footer {
 
     nav ul {
         display: none;
-
         position: absolute;
-
-        top: 70px;
+        top: 75px;
         left: 0;
-
         width: 100%;
-
         flex-direction: column;
-
         text-align: center;
-
         padding: 25px;
-
         gap: 25px;
-
         background: rgba(8, 11, 20, 0.97);
-
         backdrop-filter: blur(20px);
     }
 
     nav ul.active {
         display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero-card {
+        width: 280px;
+        min-height: 380px;
+    }
+
+    .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-links {
+        justify-content: center;
     }
 
 }
