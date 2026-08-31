@@ -535,52 +535,6 @@ footer {
     color: #8c8f9c;
 
 }
-
-
-/* ================= MOBILE ================= */
-
-@media(max-width: 800px) {
-
-    nav ul {
-        display: none;
-    }
-
-    .hero {
-
-        flex-direction: column;
-
-        text-align: center;
-
-        gap: 40px;
-
-    }
-
-    .hero h1 {
-
-        font-size: 45px;
-
-    }
-
-    .hero-card {
-
-        width: 280px;
-        height: 280px;
-
-    }
-
-    .buttons {
-
-        justify-content: center;
-
-    }
-
-    .social-links {
-
-        justify-content: center;
-
-    }
-
-}
 /* ================= PROFILE PHOTO ================= */
 
 .profile-wrapper {
@@ -622,21 +576,20 @@ footer {
     transform: translateY(0);
 }
 /* ================= MOBILE MENU ================= */
-
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
+    color: white;
 }
-
 /* ================= MOBILE ================= */
 
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
+    color: white;
 }
-
 @media (max-width: 800px) {
 
     .menu-toggle {
