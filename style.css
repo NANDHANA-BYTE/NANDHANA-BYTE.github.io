@@ -251,30 +251,23 @@ nav ul li a:hover {
 
 
 /* ================= HERO CARD ================= */
-
 .hero-card {
-
     width: 320px;
-    height: 320px;
+    min-height: 420px;
 
     background: rgba(255,255,255,0.06);
-
     border: 1px solid rgba(255,255,255,0.1);
-
     border-radius: 25px;
-
     backdrop-filter: blur(20px);
 
     display: flex;
-
+    flex-direction: column;
     justify-content: center;
-
     align-items: center;
 
     position: relative;
 
     animation: cardFloat 4s infinite alternate;
-
 }
 
 @keyframes cardFloat {
@@ -591,8 +584,8 @@ footer {
 /* ================= PROFILE PHOTO ================= */
 
 .profile-wrapper {
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     padding: 5px;
 
@@ -602,9 +595,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    margin-bottom: 20px;
-
-    box-shadow: 0 0 40px rgba(124, 58, 237, 0.5);
+    margin-bottom: 18px;
 }
 
 .profile-img {
@@ -612,6 +603,7 @@ footer {
     height: 100%;
 
     object-fit: cover;
+    object-position: center;
 
     border-radius: 50%;
 
